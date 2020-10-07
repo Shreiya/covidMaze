@@ -69,9 +69,9 @@ margin-left: 65%;
 
 .block {
   display:inline-block;
-  height:20px;
-  width:20px;
-  margin: 10px 15px;
+  height:18px;
+  width:18px;
+  margin: 8px 15px;
 }
 
 .green {
@@ -102,7 +102,7 @@ margin-left: 65%;
 }
 
 .container {
-  width: calc( 100% - 50% );
+  width: calc( 100% - 30% );
   min-height: 664px;
   padding-left: 15px;
   padding-bottom: 10px;
@@ -137,4 +137,26 @@ margin-left: 65%;
 .clown {
   background-image: url('../images/test.png');
   background-size:cover;
+}
+
+@media ( max-width:1450px ) {
+  .piggie {
+    width:15px;
+    height:15px;
+  }
+  .container {
+    width:calc( 100% - 30%);
+  }
+  .block {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 7px 10px;
+  }
+  #tickpiggy {
+    width:300px;
+    height:300px;
+    object-fit: contain;
+  }
+
 }
