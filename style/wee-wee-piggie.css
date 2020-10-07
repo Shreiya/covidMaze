@@ -98,7 +98,8 @@ margin-left: 65%;
   height:20px;
   corner-radius:15px;
   background-image: url('../images/babu.png');
-  background-size:cover;
+  background-size:contain;
+  background-repeat:no-repeat;
   margin:0 auto;
 }
 
